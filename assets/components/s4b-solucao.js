@@ -3,22 +3,22 @@ document.getElementById('slides-container').insertAdjacentHTML('beforeend', `
 <section class="slide w-full min-h-screen relative overflow-hidden flex flex-col bg-white" id="s4b" data-i="6">
   <div class="absolute top-0 left-0 right-0 h-[72px] flex items-center justify-between px-[34px] z-10 overflow-visible">
     <img src="assets/images/logotipo_branco.png" alt="Habii.tech" style="height:150px;width:auto;display:block;padding-left:0;">
-    <span class="text-[11px] font-bold tracking-[.1em] uppercase text-[#8FA398]">A solução · Fazendinhas</span>
+    <span class="text-[11px] font-bold tracking-[.1em] uppercase text-[#8FA398]">A solução · Tylco</span>
   </div>
   <div class="flex-1 grid grid-cols-2 gap-0 pt-20 overflow-hidden">
     <!-- left -->
     <div class="s4b-left px-14 py-12 flex flex-col justify-center border-r border-[#DDE8E2]">
       <div class="text-[11px] font-bold tracking-[.1em] uppercase text-[#158A3E] mb-[14px]">Prévia do produto</div>
       <h2 class="text-[clamp(36px,4vw,54px)] font-black leading-none tracking-[-0.03em] text-[#0C1410] mb-5">A solução<br><em class="text-[#6EBF8B] not-italic">em suas mãos.</em></h2>
-      <p class="text-[16px] text-[#5C6E64] leading-[1.78] mb-[18px]">Interface limpa e intuitiva, projetada para o dia a dia do morador. Todas as funcionalidades do condomínio a um toque de distância.</p>
+      <p class="text-[16px] text-[#5C6E64] leading-[1.78] mb-[18px]">Catálogo, preços e orçamento na palma da mão do representante, mesmo sem internet. Em menos de 30 segundos a informação está na tela, e o orçamento sai ainda na visita.</p>
       <div class="flex flex-col gap-3 mt-7">
         <div class="s4b-feature flex items-center gap-[14px] px-[18px] py-[14px] bg-[#F0FDF4] border border-[#BBF7D0] rounded-[14px]">
           <div class="w-[38px] h-[38px] flex-shrink-0 bg-gradient-to-br from-[#4CAF50] to-[#1B5E20] rounded-[10px] flex items-center justify-center shadow-[0_4px_12px_rgba(27,94,32,.25)]">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
           </div>
           <div>
-            <div class="text-[13px] font-bold text-[#1B5E20]">Encomendas & Visitantes</div>
-            <div class="text-[11.5px] text-[#5C6E64] mt-[2px] leading-[1.4]">Notificações instantâneas e controle de acesso</div>
+            <div class="text-[13px] font-bold text-[#1B5E20]">Catálogo offline sincronizado</div>
+            <div class="text-[11.5px] text-[#5C6E64] mt-[2px] leading-[1.4]">Produtos, preços, estoque e clientes do Pro Syst no aparelho</div>
           </div>
         </div>
         <div class="s4b-feature flex items-center gap-[14px] px-[18px] py-[14px] bg-[#F0FDF4] border border-[#BBF7D0] rounded-[14px]">
@@ -26,8 +26,8 @@ document.getElementById('slides-container').insertAdjacentHTML('beforeend', `
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
           </div>
           <div>
-            <div class="text-[13px] font-bold text-[#1B5E20]">Liberações & Prestadores</div>
-            <div class="text-[11.5px] text-[#5C6E64] mt-[2px] leading-[1.4]">Autorize acessos diretamente pelo app</div>
+            <div class="text-[13px] font-bold text-[#1B5E20]">Orçamento em PDF com a marca Tylco</div>
+            <div class="text-[11.5px] text-[#5C6E64] mt-[2px] leading-[1.4]">Gerado na visita e enviado ao cliente por WhatsApp ou e-mail</div>
           </div>
         </div>
         <div class="s4b-feature flex items-center gap-[14px] px-[18px] py-[14px] bg-[#F0FDF4] border border-[#BBF7D0] rounded-[14px]">
@@ -35,26 +35,16 @@ document.getElementById('slides-container').insertAdjacentHTML('beforeend', `
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
           </div>
           <div>
-            <div class="text-[13px] font-bold text-[#1B5E20]">Ocorrências</div>
-            <div class="text-[11.5px] text-[#5C6E64] mt-[2px] leading-[1.4]">Registre e acompanhe problemas em tempo real</div>
+            <div class="text-[13px] font-bold text-[#1B5E20]">Envio automático ao ERP</div>
+            <div class="text-[11.5px] text-[#5C6E64] mt-[2px] leading-[1.4]">O orçamento segue para o Pro Syst assim que houver conexão</div>
           </div>
         </div>
       </div>
-      <a href="https://www.figma.com/design/jZFwJeWhH715IeENnAIKQr/Untitled?node-id=0-1&t=zHp4k6oz3RYohRYq-1" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex items-center gap-[10px] px-5 py-[13px] rounded-[14px] border border-[#DDE8E2] bg-white hover:bg-[#F0FDF4] hover:border-[#BBF7D0] transition-colors w-fit group">
-        <svg width="18" height="18" viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M19 28.5A9.5 9.5 0 1 1 28.5 19 9.5 9.5 0 0 1 19 28.5Z" fill="#1ABCFE"/>
-          <path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5A9.5 9.5 0 0 1 0 47.5Z" fill="#0ACF83"/>
-          <path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19Z" fill="#FF7262"/>
-          <path d="M0 9.5a9.5 9.5 0 0 0 9.5 9.5H19V0H9.5A9.5 9.5 0 0 0 0 9.5Z" fill="#F24E1E"/>
-          <path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5Z" fill="#FF7262"/>
-        </svg>
-        <span class="text-[13px] font-semibold text-[#374840] group-hover:text-[#158A3E] transition-colors">Ver protótipo no Figma</span>
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#8FA398] group-hover:text-[#158A3E] transition-colors"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-      </a>
+
     </div>
     <!-- right -->
-    <div class="s4b-right flex items-center justify-center relative overflow-hidden" style="background:linear-gradient(160deg,#F0FDF4 0%,#DCFCE7 100%);">
-      <img src="assets/images/mockup_fazendinhas.png" alt="Mockup do App Fazendinhas" class="relative z-[1] w-auto object-contain block" style="max-height:78vh;filter:drop-shadow(0 32px 64px rgba(27,94,32,.22));">
+    <div class="s4b-right flex items-center justify-center relative overflow-hidden" style="background:linear-gradient(160deg,#F0FDF4 0%,#FEF3E2 100%);">
+      <img src="assets/images/mockup_solucao.png" alt="Prévia das telas do app Tylco" style="width:100%;max-width:720px;height:auto;max-height:78vh;object-fit:contain;display:block;padding:0 32px;box-sizing:border-box;filter:drop-shadow(0 32px 64px rgba(27,94,32,.22));">
     </div>
   </div>
 </section>

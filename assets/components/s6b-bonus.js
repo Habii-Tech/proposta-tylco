@@ -81,7 +81,7 @@ document.getElementById('slides-container').insertAdjacentHTML('beforeend', `
           </div>
           <!-- screenshot -->
           <div style="height:220px;overflow:hidden;">
-            <img src="assets/images/mockup_belovale.png" alt="Preview do site Belo Vale" style="width:100%;display:block;object-fit:cover;object-position:top;">
+            <img src="assets/images/mockup_belovale.png" alt="Preview do site Tylco" style="width:100%;display:block;object-fit:cover;object-position:top;">
           </div>
         </div>
       </div>

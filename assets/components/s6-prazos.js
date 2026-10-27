@@ -25,7 +25,7 @@ document.getElementById('slides-container').insertAdjacentHTML('beforeend', `
           </div>
         </div>
         <div style="margin-top:24px;padding-top:24px;border-top:1px solid rgba(53,224,122,.15);">
-          <div style="font-size:15px;color:rgba(255,255,255,.55);line-height:1.5;">App mobile + Painel web completo</div>
+          <div style="font-size:15px;color:rgba(255,255,255,.55);line-height:1.5;">App mobile (Android/iOS) + Painel web</div>
         </div>
       </div>
       <div class="flex flex-col gap-[14px] flex-1">

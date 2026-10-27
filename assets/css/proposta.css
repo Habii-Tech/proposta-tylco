@@ -61,6 +61,10 @@ html { scroll-snap-type: y mandatory; scroll-behavior: smooth; overflow-y: scrol
    → marcar "Gráficos de fundo"
    → Salvar como PDF
    ════════════════════════════════════════════════ */
+#cases-pages {
+  display: none;
+}
+
 @media print {
 
   /* ── Página A4 landscape, sem margens ── */
@@ -115,6 +119,38 @@ html { scroll-snap-type: y mandatory; scroll-behavior: smooth; overflow-y: scrol
   /* Slide de obrigado: não faz parte do PDF */
   #s10 {
     display: none !important;
+  }
+
+  /* ── Portfolio (cases): fora do PDF ──
+     Para voltar a imprimir, troque por `#pf-print-pages { display: block; }`
+     (o carousel.js ainda injeta um slide estático por case no beforeprint). */
+  #s9,
+  #pf-print-pages {
+    display: none !important;
+  }
+  /* Garante quebra de página após o último case (não deixar s3 colar) */
+  .pf-print-slide:last-child {
+    break-after: page !important;
+    page-break-after: always !important;
+  }
+
+  /* ── Cases (imagens): uma página por imagem, após todos os slides ── */
+  #cases-pages {
+    display: block;
+    break-before: page;
+    page-break-before: always;
+  }
+  #cases-pages img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    break-after: page;
+    page-break-after: always;
+  }
+  #cases-pages img:last-child {
+    break-after: auto;
+    page-break-after: auto;
   }
 
   /* ── Remove hover/transitions que não fazem sentido em PDF ── */
