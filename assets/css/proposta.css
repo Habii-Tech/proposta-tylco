@@ -173,6 +173,28 @@ html { scroll-snap-type: y mandatory; scroll-behavior: smooth; overflow-y: scrol
     text-shadow: none !important;
   }
 
+  /* ── Compactação dos slides densos (s3 e s4) para caber em 1 página ── */
+  #s3 > div.flex-1 { padding-top: 76px !important; padding-bottom: 20px !important; }
+  #s3 .grid { margin-top: 18px !important; gap: 12px !important; }
+  #s3 .sc { padding: 16px 20px !important; gap: 8px !important; border-radius: 16px !important; }
+  #s3 .sc > div:nth-child(2) { font-size: 14.5px !important; }
+  #s3 .sc > div:nth-child(3) { font-size: 12.5px !important; line-height: 1.5 !important; }
+
+  #s4 > div.flex-1 { padding-top: 70px !important; padding-bottom: 16px !important; }
+  #s4 > div.flex-1 > div:first-child { margin-bottom: 8px !important; }
+  #s4 > div.flex-1 > div:first-child p { font-size: 12.5px !important; line-height: 1.5 !important; }
+  #s4 > div.flex-1 > div:nth-child(2) { margin-bottom: 8px !important; }
+  #s4 .sc { border-radius: 16px !important; }
+  #s4 .sc-head { padding: 10px 20px !important; gap: 12px !important; }
+  #s4 .sc-head > div:first-child { width: 36px !important; height: 36px !important; }
+  #s4 .sc > div:last-child { padding: 4px 20px !important; flex: 1 1 auto !important; display: flex !important; flex-direction: column !important; }
+  #s4 .si, #s4 .si-full { align-items: center !important; font-size: 12.5px !important; line-height: 1.35 !important; padding-top: 3px !important; padding-bottom: 3px !important; }
+  /* App Mobile (12 itens): itens esticam para preencher o card */
+  #s4 .grid > .sc:first-child .si { flex: 1 1 auto !important; }
+  /* Painel e Versão Completa: mesma altura de linha do App Mobile (1/12 do card), sem esticar */
+  #s4 .grid > .sc:nth-child(n+2) .si,
+  #s4 .grid > .sc:nth-child(n+2) .si-full { flex: 0 0 calc(100% / 12) !important; }
+
   /* Elementos Tailwind com blur (círculos decorativos, ex: blur-2xl) */
   [class*="blur-"] {
     display: none !important;
