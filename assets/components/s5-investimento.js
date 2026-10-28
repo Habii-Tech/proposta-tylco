@@ -31,7 +31,7 @@ document.getElementById("slides-container").insertAdjacentHTML(
           <div class="text-[clamp(28px,3vw,40px)] font-black text-white tracking-[-0.03em] leading-none">+ R$ 6.000</div>
           <div class="text-[12px] text-white/40">total <strong class="text-white/60 font-semibold">R$ 38.500</strong></div>
         </div>
-        <div class="text-[12px] text-white/55 leading-[1.6]">Modo offline, pedido direto do app, agenda/roteiro de visitas e check-in, catálogo com vista explodida, assinatura digital do cliente e dashboard gerencial.</div>
+        <div class="text-[12px] text-white/55 leading-[1.6]">Modo offline, pedido direto do app, agenda/roteiro de visitas e check-in e dashboard gerencial.</div>
       </div>
 
       <!-- custos recorrentes — mais discretos -->

@@ -80,15 +80,13 @@ document.getElementById('slides-container').insertAdjacentHTML('beforeend', `
           </div>
           <div class="flex-1">
             <div class="text-[16px] font-extrabold text-white leading-[1.2] tracking-[-0.015em]">Versão Completa · Evolução</div>
-            <div class="text-[11px] font-semibold text-white/55 mt-[5px] tracking-[.06em] uppercase">6 funcionalidades · fase futura</div>
+            <div class="text-[11px] font-semibold text-white/55 mt-[5px] tracking-[.06em] uppercase">4 funcionalidades · fase futura</div>
           </div>
         </div>
         <div class="px-7 pt-[10px] pb-[8px] flex-1 bg-white">
           <div class="si-full flex items-baseline gap-3 text-[13px] text-[#374840] py-[7px] font-medium border-b border-[#E8F0EB] leading-[1.35]">Modo offline: catálogo, preços e clientes no aparelho, com envio automático ao reconectar</div>
           <div class="si-full flex items-baseline gap-3 text-[13px] text-[#374840] py-[7px] font-medium border-b border-[#E8F0EB] leading-[1.35]">Pedido direto do app, sem validação interna</div>
           <div class="si-full flex items-baseline gap-3 text-[13px] text-[#374840] py-[7px] font-medium border-b border-[#E8F0EB] leading-[1.35]">Agenda/roteiro de visitas e check-in</div>
-          <div class="si-full flex items-baseline gap-3 text-[13px] text-[#374840] py-[7px] font-medium border-b border-[#E8F0EB] leading-[1.35]">Catálogo com vista explodida e compatibilidade avançada</div>
-          <div class="si-full flex items-baseline gap-3 text-[13px] text-[#374840] py-[7px] font-medium border-b border-[#E8F0EB] leading-[1.35]">Assinatura digital do cliente</div>
           <div class="si-full flex items-baseline gap-3 text-[13px] text-[#374840] py-[7px] font-medium leading-[1.35]">Dashboard gerencial: orçamentos e desempenho do time</div>
         </div>
       </div>
