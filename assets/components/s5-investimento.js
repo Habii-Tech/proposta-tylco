@@ -14,7 +14,7 @@ document.getElementById("slides-container").insertAdjacentHTML(
       <h2 class="text-[clamp(36px,4vw,54px)] font-black leading-none tracking-[-0.03em] text-[#0C1410] mb-5">Investimento<br><em class="text-[#6EBF8B] not-italic">transparente.</em></h2>
       <p class="text-[16px] text-[#5C6E64] leading-[1.78] mb-[18px]">Sem surpresas. Você sabe exatamente o que paga e o que recebe em cada etapa do projeto.</p>
       <div class="inv-box bg-[#0C1410] rounded-[20px] p-10 mt-7 relative overflow-hidden">
-        <div class="text-[11px] font-bold tracking-[.1em] uppercase text-[#1DB954] mb-[22px]">Investimento total do projeto</div>
+        <div class="text-[11px] font-bold tracking-[.1em] uppercase text-[#1DB954] mb-[22px]">Versão 1 · MVP</div>
         <div class="text-[clamp(26px,3vw,42px)] font-black text-white tracking-[-0.03em] leading-[1.15] mb-[10px]">Entrada de <em class="text-[#1DB954] not-italic">R$ 6.500</em><br>+ 4 parcelas de <em class="text-[#1DB954] not-italic">R$ 6.500</em></div>
         <div class="text-[14px] text-white/30 mb-6">Valor total: <strong class="text-white/55 font-semibold">R$ 32.500,00</strong></div>
         <div class="h-px bg-white/[0.08] mb-[18px]"></div>
@@ -23,8 +23,16 @@ document.getElementById("slides-container").insertAdjacentHTML(
     </div>
     <!-- right -->
     <div class="bg-white border-l border-[#DDE8E2] px-12 py-10 flex flex-col gap-[14px] justify-center">
-
-
+      <!-- versão completa — etapa 2 opcional -->
+      <div class="bg-[#0C1410] border-2 border-[#1DB954] rounded-[20px] p-7 relative overflow-hidden">
+        <div class="inline-block bg-[#1DB954] text-[#0C1410] text-[10px] font-extrabold tracking-[.08em] uppercase rounded-full px-3 py-[5px] mb-4">Etapa 2 · Opcional</div>
+        <div class="text-[10px] font-bold tracking-[.1em] uppercase text-[#1DB954] mb-2">Versão completa</div>
+        <div class="flex items-baseline gap-3 mb-3">
+          <div class="text-[clamp(28px,3vw,40px)] font-black text-white tracking-[-0.03em] leading-none">+ <em class="text-[#1DB954] not-italic">R$ 6.000</em></div>
+          <div class="text-[12px] text-white/40">total <strong class="text-white/60 font-semibold">R$ 38.500</strong></div>
+        </div>
+        <div class="text-[12px] text-white/55 leading-[1.6]">Modo offline, pedido direto do app, agenda/roteiro de visitas e check-in, catálogo com vista explodida, assinatura digital do cliente e dashboard gerencial.</div>
+      </div>
 
       <!-- custos recorrentes — mais discretos -->
       <div class="mt-1">

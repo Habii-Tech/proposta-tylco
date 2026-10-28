@@ -27,6 +27,7 @@ html { scroll-snap-type: y mandatory; scroll-behavior: smooth; overflow-y: scrol
   width:90px; height:90px; border-radius:50%; background:rgba(255,255,255,.07);
 }
 .si::before { content:'→'; color:#1DB954; font-size:12px; font-weight:800; flex-shrink:0; }
+.si-full::before { content:'+'; color:#B7791F; font-size:13px; font-weight:800; flex-shrink:0; }
 .inv-box::after {
   content:''; position:absolute; right:-48px; bottom:-48px;
   width:180px; height:180px; border-radius:50%; background:rgba(29,185,84,.07);
