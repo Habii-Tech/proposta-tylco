@@ -28,7 +28,7 @@ document.getElementById("slides-container").insertAdjacentHTML(
         <div class="inline-block bg-[#1DB954] text-[#0C1410] text-[10px] font-extrabold tracking-[.08em] uppercase rounded-full px-3 py-[5px] mb-4">Etapa 2 · Opcional</div>
         <div class="text-[10px] font-bold tracking-[.1em] uppercase text-[#1DB954] mb-2">Versão completa</div>
         <div class="flex items-baseline gap-3 mb-3">
-          <div class="text-[clamp(28px,3vw,40px)] font-black text-white tracking-[-0.03em] leading-none">+ <em class="text-[#1DB954] not-italic">R$ 6.000</em></div>
+          <div class="text-[clamp(28px,3vw,40px)] font-black text-white tracking-[-0.03em] leading-none">+ R$ 6.000</div>
           <div class="text-[12px] text-white/40">total <strong class="text-white/60 font-semibold">R$ 38.500</strong></div>
         </div>
         <div class="text-[12px] text-white/55 leading-[1.6]">Modo offline, pedido direto do app, agenda/roteiro de visitas e check-in, catálogo com vista explodida, assinatura digital do cliente e dashboard gerencial.</div>
